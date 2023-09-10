@@ -1,1 +1,5 @@
 # Multi-Task-Learning-Approach-for-Unified-Biometric-Estimation-from-Fetal-Ultrasound-Anomaly-Scans
+
+
+
+Precise estimation of fetal biometry parameters from ultrasound images is vital for evaluating fetal growth, monitoring health, and identifying potential complications reliably. However, the automated computerized segmentation of the fetal head, abdomen, and femur from ultrasound images, along with the subsequent measurement of fetal biometrics, remains challenging. In this work, we propose a multi-task learning approach to classify the region into head, abdomen and femur as well as estimate the associated parameters. We were able to achieve a mean absolute error (MAE) of 1.08 mm on head circumference, 1.44 mm on abdomen circumference and 1.10 mm on femur length with a classification accuracy of 99.91\% on a dataset of fetal Ultrasound images. To achieve this, we leverage a weighted joint classification and segmentation loss function to train a U-Net architecture with an added classification head. 
